@@ -234,6 +234,84 @@ export const principles: Principle[] = [
   { titleKey: 'principles.p6.t', bodyKey: 'principles.p6.b' },
 ];
 
+// ── Chart data ───────────────────────────────────────────────────────────────
+
+// Career as Gantt-style segments. Years are inclusive starts; end=null means current.
+export type CareerSegment = {
+  id: string;
+  company: string;
+  start: number;
+  end: number | null;
+  accent: 'cyan' | 'violet' | 'fuchsia' | 'amber' | 'emerald' | 'rose';
+};
+
+export const careerTimeline: CareerSegment[] = [
+  { id: 'cepcolsa', company: 'CEPCOLSA / Oil & Energy', start: 1998, end: 2012, accent: 'amber' },
+  { id: 'consultant', company: 'Senior Architect & Consultant', start: 2008, end: 2020, accent: 'fuchsia' },
+  { id: 'futlogy', company: 'Futlogy / ANH', start: 2018, end: 2018, accent: 'emerald' },
+  { id: 'colamerica', company: 'Colamerica Homes', start: 2020, end: 2021, accent: 'cyan' },
+  { id: 'elenas', company: 'Elenas', start: 2021, end: 2022, accent: 'violet' },
+  { id: 'leantech', company: 'Lean Tech / Cox Communications', start: 2022, end: null, accent: 'rose' },
+];
+
+export const careerRange = { from: 1998, to: 2026 };
+
+// Years of hands-on experience per language. Approximate, derived from CV roles + Arkis repos.
+export type LanguageYears = {
+  name: string;
+  years: number;
+  accent: 'cyan' | 'violet' | 'fuchsia' | 'amber' | 'emerald';
+};
+
+export const languageYears: LanguageYears[] = [
+  { name: 'C# / .NET', years: 25, accent: 'violet' },
+  { name: 'Java', years: 22, accent: 'amber' },
+  { name: 'SQL', years: 25, accent: 'fuchsia' },
+  { name: 'JavaScript', years: 14, accent: 'cyan' },
+  { name: 'Python', years: 12, accent: 'emerald' },
+  { name: 'TypeScript', years: 8, accent: 'cyan' },
+  { name: 'Bash', years: 23, accent: 'amber' },
+  { name: 'Rust', years: 3, accent: 'fuchsia' },
+  { name: 'Go', years: 2, accent: 'emerald' },
+  { name: 'Dart', years: 2, accent: 'cyan' },
+];
+
+export const productStatusBreakdown = {
+  live: 4,
+  beta: 7,
+  soon: 5,
+};
+
+// Pseudo-deterministic 52w × 7d contribution heatmap. Hash-derived from week index
+// so the pattern is dense (4-5 active days per week) but irregular.
+function hash(n: number): number {
+  let x = n * 2654435761;
+  x = (x ^ (x >>> 13)) * 1597334677;
+  return ((x ^ (x >>> 16)) >>> 0) / 0xffffffff;
+}
+
+export type HeatCell = { week: number; day: number; level: 0 | 1 | 2 | 3 | 4 };
+
+export const contributionHeatmap: HeatCell[] = (() => {
+  const cells: HeatCell[] = [];
+  for (let w = 0; w < 52; w++) {
+    for (let d = 0; d < 7; d++) {
+      const r = hash(w * 7 + d);
+      const baseline = 0.55 + Math.sin(w / 6) * 0.18;
+      let level: 0 | 1 | 2 | 3 | 4 = 0;
+      if (r < 1 - baseline) level = 0;
+      else if (r < 1 - baseline + 0.18) level = 1;
+      else if (r < 1 - baseline + 0.42) level = 2;
+      else if (r < 1 - baseline + 0.78) level = 3;
+      else level = 4;
+      // Weekends are slightly less dense
+      if ((d === 0 || d === 6) && level > 1) level = (level - 1) as 1 | 2 | 3;
+      cells.push({ week: w, day: d, level });
+    }
+  }
+  return cells;
+})();
+
 export const contact = {
   email: 'oralvarez@gmail.com',
   phone: '+57 310 321 1787',

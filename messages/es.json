@@ -178,6 +178,36 @@
     "languages": "Lenguajes en uso real",
     "viewProfile": "Ver perfil GitHub"
   },
+  "charts": {
+    "eyebrow": "Métricas en vivo",
+    "title": "Lo que dicen los números",
+    "subtitle": "Visualizaciones derivadas de mi GitHub real, fechas del CV y estado actual del catálogo Arkis. Sin maquillaje.",
+    "heatmap": {
+      "eyebrow": "Cadencia de entrega",
+      "title": "Últimas 52 semanas de actividad",
+      "contributions": "Días con commit",
+      "less": "Menos",
+      "more": "Más",
+      "streak": "Racha más larga",
+      "streakDays": "días"
+    },
+    "timeline": {
+      "eyebrow": "Trayectoria",
+      "title": "23+ años en sistemas críticos",
+      "years": "años",
+      "now": "hoy"
+    },
+    "languages": {
+      "eyebrow": "Profundidad por lenguaje",
+      "title": "Años de experiencia hands-on",
+      "languages": "lenguajes"
+    },
+    "donut": {
+      "eyebrow": "Catálogo Arkis",
+      "title": "16 productos · estado actual",
+      "products": "productos"
+    }
+  },
   "rate": {
     "eyebrow": "Rate de referencia",
     "title": "Tarifa transparente",

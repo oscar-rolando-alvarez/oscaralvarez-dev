@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { NeuralBackdrop } from './neural-backdrop';
 
 export function AnimatedBackground() {
   return (
@@ -23,6 +24,10 @@ export function AnimatedBackground() {
         animate={{ x: [0, -40, 40, 0], scale: [1, 1.08, 0.96, 1] }}
         transition={{ duration: 26, repeat: Infinity, ease: 'easeInOut' }}
       />
+
+      <div className="absolute inset-0 opacity-50 mix-blend-screen">
+        <NeuralBackdrop />
+      </div>
     </div>
   );
 }
