@@ -13,13 +13,7 @@
     "name": "Oscar Rolando Álvarez",
     "title": "Principal AI Systems Architect",
     "subtitle": "Lenguajes sobre frameworks · Protocolos sobre abstracciones · Producción sobre prototipos",
-    "tagline": "Diseño y escalo {distributed} en tiempo real que procesan telemetría de {iot} con latencia {latency}, integrando inteligencia LLM en plataformas empresariales. {ships} {languages} {github}",
-    "distributed": "sistemas distribuidos",
-    "iot": "6.2M+ dispositivos IoT",
-    "latency": "sub-segundo",
-    "ships": "Ship semanal a producción.",
-    "languages": "10 lenguajes en uso real.",
-    "github": "48 repos propios, 0 forks.",
+    "tagline": "Diseño y escalo <distributed>sistemas distribuidos</distributed> en tiempo real que procesan telemetría de <iot>6.2M+ dispositivos IoT</iot> con latencia <latency>sub-segundo</latency>, integrando inteligencia LLM en plataformas empresariales. <ships>Ship semanal a producción.</ships> <languages>10 lenguajes en uso real.</languages> <github>48 repos propios, 0 forks.</github>",
     "ctaPrimary": "Hablemos",
     "ctaSecondary": "Ver productos",
     "scroll": "Desliza para explorar",
@@ -36,12 +30,10 @@
   },
   "about": {
     "eyebrow": "Sobre mí",
-    "title": "Construyo {highlight} a escala continental — sin atarme a un framework.",
-    "highlight": "plataformas inteligentes",
+    "title": "Construyo <highlight>plataformas inteligentes</highlight> a escala continental — sin atarme a un framework.",
     "p1": "Arquitecto de sistemas con perfil Principal y más de 23 años diseñando y escalando sistemas distribuidos, plataformas de datos en tiempo real e infraestructura AI cloud-native. He entregado arquitecturas event-driven a gran escala que procesan telemetría desde más de 6.2 millones de dispositivos IoT en producción con latencia sub-segundo, e integran inteligencia con LLMs en sistemas empresariales.",
     "p2": "No me defino por un framework. Trabajo en 10 lenguajes — JavaScript, TypeScript, Python, Java, C#, Rust, Go, Dart, SQL, Bash — y elijo el stack según el problema, no según mi zona de confort. Si la solución pide Node.js puro, lo hago en Node puro. Si pide un servicio Rust con Axum, lo construyo en Rust. Los frameworks son atajos opcionales: la base es entender los lenguajes y los protocolos por debajo.",
-    "p3": "Como fundador de {arkis}, lidero un grupo empresarial enfocado en PropTech, ciberseguridad, IA y transformación digital, con un catálogo de 16 productos en producción que han generado más de USD 85M en ahorros documentados a clientes y operan más de 140 agentes de IA. 48 repos propios, 0 forks: cada línea es código original.",
-    "arkis": "ARKIS GROUP"
+    "p3": "Como fundador de <arkis>ARKIS GROUP</arkis>, lidero un grupo empresarial enfocado en PropTech, ciberseguridad, IA y transformación digital, con un catálogo de 16 productos en producción que han generado más de USD 85M en ahorros documentados a clientes y operan más de 140 agentes de IA. 48 repos propios, 0 forks: cada línea es código original."
   },
   "core": {
     "eyebrow": "Expertise central",
@@ -197,8 +189,7 @@
   },
   "products": {
     "eyebrow": "Productos & ecosistema Arkis",
-    "title": "Lo que estoy construyendo {highlight}",
-    "highlight": "ahora mismo",
+    "title": "Lo que estoy construyendo <highlight>ahora mismo</highlight>",
     "subtitle": "Catálogo de productos del grupo empresarial ARKIS GROUP, fundado por mí, especializado en PropTech, ciberseguridad, IA y transformación digital para LATAM.",
     "status": {
       "live": "En vivo",
@@ -285,8 +276,7 @@
   },
   "contact": {
     "eyebrow": "Hablemos",
-    "title": "¿Construimos algo {highlight}?",
-    "highlight": "extraordinario",
+    "title": "¿Construimos algo <highlight>extraordinario</highlight>?",
     "subtitle": "Estoy abierto a roles globales remotos, asesorías de arquitectura y proyectos donde la IA y los sistemas distribuidos sean el corazón del producto.",
     "email": "Email",
     "phone": "Teléfono",

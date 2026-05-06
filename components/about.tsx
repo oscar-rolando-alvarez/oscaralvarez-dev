@@ -86,14 +86,14 @@ export function About() {
               className="text-base leading-relaxed text-muted-foreground sm:text-lg text-pretty"
             >
               {t.rich('p3', {
-                arkis: () => (
+                arkis: (chunks) => (
                   <a
                     href="https://arkisgroup.co"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-foreground underline-offset-4 hover:underline"
                   >
-                    {t('arkis')}
+                    {chunks}
                   </a>
                 ),
               })}

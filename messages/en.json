@@ -13,13 +13,7 @@
     "name": "Oscar Rolando Alvarez",
     "title": "Principal AI Systems Architect",
     "subtitle": "Languages over frameworks · Protocols over abstractions · Production over prototypes",
-    "tagline": "I design and scale real-time {distributed} processing telemetry from {iot} with {latency} latency, embedding LLM intelligence into enterprise platforms. {ships} {languages} {github}",
-    "distributed": "distributed systems",
-    "iot": "6.2M+ IoT devices",
-    "latency": "sub-second",
-    "ships": "Weekly ship cadence to production.",
-    "languages": "10 languages in active use.",
-    "github": "48 own repos, 0 forks.",
+    "tagline": "I design and scale real-time <distributed>distributed systems</distributed> processing telemetry from <iot>6.2M+ IoT devices</iot> with <latency>sub-second</latency> latency, embedding LLM intelligence into enterprise platforms. <ships>Weekly ship cadence to production.</ships> <languages>10 languages in active use.</languages> <github>48 own repos, 0 forks.</github>",
     "ctaPrimary": "Let's talk",
     "ctaSecondary": "View products",
     "scroll": "Scroll to explore",
@@ -36,12 +30,10 @@
   },
   "about": {
     "eyebrow": "About",
-    "title": "I build {highlight} at continental scale — without binding myself to a framework.",
-    "highlight": "intelligent platforms",
+    "title": "I build <highlight>intelligent platforms</highlight> at continental scale — without binding myself to a framework.",
     "p1": "Principal-level AI Systems Architect with 23+ years designing and scaling distributed systems, real-time data platforms, and cloud-native AI infrastructure. Proven track record building large-scale event-driven architectures processing telemetry from 6.2M+ IoT devices in production with sub-second latency, and integrating LLM-powered intelligence into enterprise platforms.",
     "p2": "I don't define myself by a framework. I work across 10 languages — JavaScript, TypeScript, Python, Java, C#, Rust, Go, Dart, SQL, Bash — and choose the stack based on the problem, not my comfort zone. If the solution calls for plain Node.js, I write plain Node.js. If it calls for a Rust service on Axum, I build it in Rust. Frameworks are optional shortcuts: the foundation is mastery of the languages and the protocols underneath.",
-    "p3": "As founder of {arkis}, I lead a business group specializing in PropTech, cybersecurity, AI, and digital transformation, with a catalog of 16 products in production that have generated USD 85M+ in documented client savings and run 140+ AI agents. 48 own repos, 0 forks: every line is original code.",
-    "arkis": "ARKIS GROUP"
+    "p3": "As founder of <arkis>ARKIS GROUP</arkis>, I lead a business group specializing in PropTech, cybersecurity, AI, and digital transformation, with a catalog of 16 products in production that have generated USD 85M+ in documented client savings and run 140+ AI agents. 48 own repos, 0 forks: every line is original code."
   },
   "core": {
     "eyebrow": "Core expertise",
@@ -197,8 +189,7 @@
   },
   "products": {
     "eyebrow": "Products & Arkis ecosystem",
-    "title": "What I'm building {highlight}",
-    "highlight": "right now",
+    "title": "What I'm building <highlight>right now</highlight>",
     "subtitle": "Product catalog from the ARKIS GROUP business holding I founded, specialized in PropTech, cybersecurity, AI, and digital transformation for LATAM.",
     "status": {
       "live": "Live",
@@ -285,8 +276,7 @@
   },
   "contact": {
     "eyebrow": "Let's talk",
-    "title": "Shall we build something {highlight}?",
-    "highlight": "extraordinary",
+    "title": "Shall we build something <highlight>extraordinary</highlight>?",
     "subtitle": "Open to remote global roles, architecture advisory, and projects where AI and distributed systems are at the heart of the product.",
     "email": "Email",
     "phone": "Phone",
