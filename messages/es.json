@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "stack": "Stack",
+    "products": "Productos",
+    "contact": "Contacto",
+    "resume": "CV"
+  },
+  "hero": {
+    "eyebrow": "Disponible para roles globales remotos",
+    "name": "Oscar Rolando Álvarez",
+    "title": "Principal AI Systems Architect",
+    "subtitle": "Infraestructura AI · Plataformas Cloud-Native",
+    "tagline": "Diseño y escalo {distributed} en tiempo real que procesan telemetría de {iot} con latencia {latency}, integrando inteligencia LLM en plataformas empresariales.",
+    "distributed": "sistemas distribuidos",
+    "iot": "6.2M+ dispositivos IoT",
+    "latency": "sub-segundo",
+    "ctaPrimary": "Hablemos",
+    "ctaSecondary": "Ver productos",
+    "scroll": "Desliza para explorar"
+  },
+  "stats": {
+    "iotDevices": "Dispositivos IoT monitoreados",
+    "yearsProduction": "Años en sistemas en producción",
+    "latency": "Latencia de procesamiento",
+    "verticals": "Verticales de industria"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Construyo {highlight} a escala continental.",
+    "highlight": "plataformas inteligentes",
+    "p1": "Arquitecto de sistemas con perfil Principal y más de 23 años diseñando y escalando sistemas distribuidos, plataformas de datos en tiempo real e infraestructura AI cloud-native. He entregado arquitecturas event-driven a gran escala que procesan telemetría desde más de 6.2 millones de dispositivos IoT en producción con latencia sub-segundo, e integran inteligencia con LLMs en sistemas empresariales.",
+    "p2": "Mi expertise está en arquitectura de plataformas de IA, sistemas de streaming en tiempo real (Apache Kafka, AWS Kinesis) y cómputo distribuido cloud-native sobre el ecosistema AWS. Lidero la evolución arquitectural de productos, mentoría a equipos de ingeniería y traduzco retos de negocio complejos en sistemas escalables impulsados por IA. Hoy mi foco está en sistemas de decisión con IA, automatización con LLMs y plataformas inteligentes de próxima generación.",
+    "p3": "Como fundador de {arkis}, lidero un grupo empresarial enfocado en PropTech, ciberseguridad, IA y transformación digital, con un catálogo de 10+ productos que han generado más de USD 85M en ahorros documentados a clientes y operan más de 140 agentes de IA en producción.",
+    "arkis": "ARKIS GROUP"
+  },
+  "core": {
+    "eyebrow": "Expertise central",
+    "title": "Cuatro pilares, una visión integral",
+    "ai": {
+      "title": "IA & Sistemas Inteligentes",
+      "i1": "Arquitectura y diseño de plataformas IA",
+      "i2": "Integración LLM (OpenAI, Claude, LangChain)",
+      "i3": "Sistemas y pipelines de decisión IA",
+      "i4": "Automatización inteligente y alerting",
+      "i5": "Analítica en tiempo real impulsada por IA"
+    },
+    "streaming": {
+      "title": "Sistemas Distribuidos & Streaming",
+      "i1": "Event-Driven Architecture (EDA)",
+      "i2": "Apache Kafka / AWS Kinesis",
+      "i3": "Plataformas de streaming de alto throughput",
+      "i4": "Procesamiento de telemetría en tiempo real",
+      "i5": "Data Lake y arquitectura analítica"
+    },
+    "cloud": {
+      "title": "Cloud & Infraestructura",
+      "i1": "AWS Serverless & Event-Driven",
+      "i2": "Kubernetes, Docker, ECS/EKS",
+      "i3": "Infrastructure as Code (Terraform)",
+      "i4": "Pipelines CI/CD y DevOps",
+      "i5": "Sistemas distribuidos multi-región"
+    },
+    "leadership": {
+      "title": "Liderazgo & Entrega",
+      "i1": "Estrategia técnica y ownership de arquitectura",
+      "i2": "Mentoría a ingenieros senior y mid",
+      "i3": "Colaboración cross-funcional",
+      "i4": "Modernización de sistemas empresariales",
+      "i5": "Comunicación con stakeholders y clientes"
+    }
+  },
+  "experience": {
+    "eyebrow": "Experiencia profesional",
+    "title": "Más de dos décadas resolviendo problemas de misión crítica",
+    "leantech": {
+      "role": "Solutions Architect & Tech Lead",
+      "summary": "Diseñé y entregué una plataforma de monitoreo en tiempo real a gran escala que procesa telemetría de 6.2M+ dispositivos conectados con latencia sub-segundo.",
+      "h1": "Arquitectura distribuida event-driven con Apache Kafka y servicios de streaming AWS para analítica en tiempo real sobre millones de endpoints IoT",
+      "h2": "Pipelines de ingesta serverless con AWS Lambda, Kinesis Data Streams y Firehose para plataformas escalables AI-ready",
+      "h3": "Operational intelligence potenciada por LLM (OpenAI API) para análisis automatizado de incidentes y alerting inteligente",
+      "h4": "Data lake cloud-native con AWS Athena para BI casi-real-time y soporte de decisiones operativas",
+      "h5": "Liderazgo de proyecto interno de automatización de facturas con Python, Django y AWS reduciendo tiempo manual significativamente",
+      "h6": "Mentoría a equipos en arquitectura cloud-native, patrones de event streaming y mejores prácticas de integración AI/ML"
+    },
+    "elenas": {
+      "role": "Staff DevOps & Software Architect",
+      "summary": "Lideré la modernización cloud y la evolución de plataforma para uno de los ecosistemas de social commerce más grandes de LATAM.",
+      "h1": "Migración de servicios distribuidos desde Heroku a infraestructura cloud-native basada en AWS",
+      "h2": "Diseño y construcción del sistema de procesamiento de pagos Hermes con microservicios GraphQL y patrones event-driven",
+      "h3": "Templates de despliegue Kubernetes y pipelines CI/CD automatizados para todos los servicios nuevos",
+      "h4": "Lideré un equipo de 5 desarrolladores y un UX designer, coordinando arquitectura, entrega e integración con ERP NetSuite",
+      "h5": "Rediseño de la arquitectura de pagos con Huski y GraphQL, mejorando el throughput transaccional"
+    },
+    "colamerica": {
+      "role": "Senior Software Engineer & Team Leader",
+      "summary": "Lideré el desarrollo de COLANET, sistema multi-estado de administración de clientes para servicios financieros hispanos.",
+      "h1": "Arquitectura y entrega de plataforma empresarial cubriendo operaciones en tres estados de EE.UU.",
+      "h2": "Lideré el equipo completo de ingeniería gestionando timelines, calidad y decisiones técnicas"
+    },
+    "futlogy": {
+      "role": "Software Architect",
+      "summary": "Diseñé el backend de la plataforma regulatoria nacional de hidrocarburos de Colombia (IDP 2.0).",
+      "h1": "Pipelines ETL de transformación de datos y sistemas de gestión de flujos de servicio al cliente",
+      "h2": "Prototipo MVP de Blockchain en .NET para caso de uso de transparencia regulatoria"
+    },
+    "consultant": {
+      "role": "Senior Software Architect & Consultant",
+      "summary": "Sistemas distribuidos y plataformas empresariales mission-critical en industrias reguladas.",
+      "h1": "Sistemas financieros y de procesamiento de pagos en arquitecturas multi-región (Ecopetrol, EAM Consultoría)",
+      "h2": "Plataformas empresariales data-intensivas para entidades gubernamentales (Cámara de Comercio de Bogotá, ICETEX)",
+      "h3": "Arquitecturas backend a gran escala usando ecosistemas .NET, Java y Python para sector oil & energy",
+      "h4": "Sistemas empresariales de reporting y BI sobre Oracle y SQL Server",
+      "h5": "Portal de nómina y herramientas de migración legacy para Ecopetrol (9 sistemas legacy consolidados)"
+    },
+    "cepcolsa": {
+      "role": "Database Administrator & Infrastructure Engineer",
+      "summary": "Años fundacionales: construí experticia profunda en sistemas de bases de datos empresariales, infraestructura y operaciones de producción.",
+      "h1": "Administración de bases de datos productivas para empresas de oil & energy (SQL Server, Oracle 11g)",
+      "h2": "Gestión de infraestructura Linux, aplicaciones de geociencias y sistemas de almacenamiento masivo",
+      "h3": "Aplicaciones web y sistemas de información integrados para contabilidad, finanzas y logística"
+    }
+  },
+  "stack": {
+    "eyebrow": "Technology Stack",
+    "title": "Lenguajes, frameworks y plataformas con los que trabajo a diario",
+    "languages": "Lenguajes",
+    "aiData": "IA & Datos",
+    "cloud": "Cloud",
+    "frameworks": "Frameworks",
+    "databases": "Bases de Datos",
+    "verticals": "Verticales"
+  },
+  "products": {
+    "eyebrow": "Productos & ecosistema Arkis",
+    "title": "Lo que estoy construyendo {highlight}",
+    "highlight": "ahora mismo",
+    "subtitle": "Catálogo de productos del grupo empresarial ARKIS GROUP, fundado por mí, especializado en PropTech, ciberseguridad, IA y transformación digital para LATAM.",
+    "status": {
+      "live": "En vivo",
+      "beta": "Beta",
+      "soon": "Próximamente"
+    },
+    "visit": "Visitar",
+    "viewAll": "Visitar Arkis Group"
+  },
+  "p": {
+    "arkis": {
+      "tag": "Holding tecnológico",
+      "desc": "Grupo empresarial especializado en PropTech, ciberseguridad, IA y transformación digital. 10+ productos digitales, USD 85M+ en ahorros documentados y 140+ agentes de IA en producción para el ecosistema LATAM."
+    },
+    "sentria": {
+      "tag": "Seguridad y salud laboral",
+      "desc": "Plataforma SaaS multi-tenant de SG-SST con detección de EPP en tiempo real con YOLOv8, analítica predictiva con Claude, gamificación SafePoints, gemelo digital 3D y cumplimiento Decreto 1072."
+    },
+    "vigia": {
+      "tag": "Vigilancia con IA y drones",
+      "desc": "Plataforma SaaS de vigilancia integrada que combina cámaras IP con Computer Vision (YOLOv8), drones autónomos DJI y sensores IoT LoRaWAN. Centro de comando en tiempo real con SignalR y notificaciones por WhatsApp."
+    },
+    "mitecho": {
+      "tag": "PropTech para familias colombianas",
+      "desc": "PWA mobile-first construida con Next.js 14 y Supabase para preparar a familias (1-15 SMMLV) al crédito hipotecario: calculadora, comparación de bancos, verificador de subsidios y asesor IA Victoria con Claude."
+    },
+    "kvelta": {
+      "tag": "Gobernanza de IA empresarial",
+      "desc": "Gateway inteligente entre empleados y LLMs (OpenAI, Claude, Gemini, Mistral, Cohere). Anonimiza PII, controla presupuestos por usuario, cachea semánticamente y audita para cumplimiento. Rust + Axum + PostgreSQL."
+    },
+    "lektor": {
+      "tag": "Inteligencia conductual en tiempo real",
+      "desc": "Plataforma que lee microexpresiones FACS, postura, prosodia vocal y mirada para entregar coaching en menos de 200 ms vía móvil y gafas inteligentes. Llama 3 8B on-device + Claude API en la nube."
+    },
+    "patchd": {
+      "tag": "Presencia digital con IA",
+      "desc": "10 agentes de IA que automatizan presencia digital (Google Maps, reseñas, sitio web, SEO local) para negocios locales. Pricing por niveles, calculadora de ROI y captura de leads. Next.js 15 sobre Cloudflare Workers."
+    },
+    "tcv": {
+      "tag": "Fidelización por WhatsApp",
+      "desc": "SaaS de fidelización para micronegocios colombianos. Bot inteligente con Claude Haiku, fiados digitales, programas de lealtad, campañas automatizadas y red de referidos. Fastify + Prisma + BullMQ."
+    },
+    "safyquest": {
+      "tag": "Asistencia turística con IA",
+      "desc": "Plataforma para LATAM con traducción voz a voz Claude+ElevenLabs, concierge Safy, Safy Guardian geo-contextual, mapas PostGIS, SafyRide con PIN y joyas escondidas. FastAPI + Flutter."
+    },
+    "swat": {
+      "tag": "Rescate de proyectos en crisis",
+      "desc": "Consultoría de rescate de proyectos en crisis usando metodología propietaria RAPID. Tres niveles fijos (USD 8-15K, 35-80K, 80-200K) sin tarifas por hora. Auditorías arquitecturales y stabilización."
+    },
+    "kratos": {
+      "tag": "Control petrolero upstream",
+      "desc": "Plataforma empresarial para upstream de oil & gas con microservicios .NET 8 Clean Architecture, Blazor Server, React 19 + MUI, visualización 3D Three.js, app React Native offline e integración SCADA Modbus/OPC UA."
+    },
+    "nashville": {
+      "tag": "Edge AI petrolero",
+      "desc": "Plataforma Edge AI con monitorización SCADA en tiempo real, 140+ agentes autónomos CrewAI, cómputo offline en nodos Jetson, gemelo digital GIS 3D y cumplimiento regulatorio. .NET 8 + Kafka + TimescaleDB."
+    },
+    "nexusai": {
+      "tag": "Automatización de ventas con IA",
+      "desc": "Plataforma de automatización de ventas con agentes autónomos, orquestación multi-proveedor (OpenAI, DeepSeek, Anthropic, Gemini), LangChain y CrewAI. Dashboard ejecutivo y motor de aceleración."
+    },
+    "forge": {
+      "tag": "IDE de terminal con IA",
+      "desc": "IDE agnóstico de IA nativo de terminal escrito en Rust con edición vim modal completa, ratatui, tree-sitter para 30+ lenguajes, LSP y DAP multiplexados, plugins WASM y bucle de inteligencia cerrado."
+    },
+    "flowscope": {
+      "tag": "Observabilidad universal",
+      "desc": "Plataforma de instrumentación y observabilidad escrita en Rust con sobrecarga casi nula. Instrumenta cualquier función en Python, Node, Go, Java, .NET y Rust. Detecta cuellos de botella vía huella estructural."
+    },
+    "kontae": {
+      "tag": "Facturación electrónica DIAN",
+      "desc": "SaaS para MiPYMEs colombianas con facturación electrónica DIAN UBL 2.1 firmada PKCS#12, Victoria Fiscal AI con Claude, nómina electrónica, conciliación Open Banking y calendario tributario. .NET 8 + React 19 PWA."
+    }
+  },
+  "education": {
+    "eyebrow": "Formación",
+    "title": "Educación",
+    "degree": "Ingeniería de Software",
+    "school": "Universidad Católica de Colombia",
+    "languagesLabel": "Idiomas",
+    "english": "Inglés: Profesional (B2 Upper-Intermediate)",
+    "spanish": "Español: Nativo"
+  },
+  "contact": {
+    "eyebrow": "Hablemos",
+    "title": "¿Construimos algo {highlight}?",
+    "highlight": "extraordinario",
+    "subtitle": "Estoy abierto a roles globales remotos, asesorías de arquitectura y proyectos donde la IA y los sistemas distribuidos sean el corazón del producto.",
+    "email": "Email",
+    "phone": "Teléfono",
+    "location": "Ubicación",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "arkis": "Arkis Group",
+    "writeMe": "Escríbeme"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "built": "Hecho con Next.js, Tailwind y Framer Motion · Desplegado en Vercel"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "light": "Claro",
+    "dark": "Oscuro"
+  },
+  "lang": {
+    "switch": "Cambiar idioma"
+  }
+}

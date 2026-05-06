@@ -1,0 +1,165 @@
+export type ProductStatus = 'live' | 'beta' | 'soon';
+
+export type Product = {
+  id: string;
+  name: string;
+  domain?: string;
+  status: ProductStatus;
+  taglineKey: string;
+  descriptionKey: string;
+  tags: string[];
+  accent: 'cyan' | 'violet' | 'fuchsia' | 'amber' | 'emerald' | 'rose';
+  href?: string;
+};
+
+export const arkisProducts: Product[] = [
+  {
+    id: 'arkis',
+    name: 'ARKIS GROUP',
+    domain: 'arkisgroup.co',
+    status: 'live',
+    taglineKey: 'p.arkis.tag',
+    descriptionKey: 'p.arkis.desc',
+    tags: ['PropTech', 'Cybersecurity', 'AI', 'Digital Transformation'],
+    accent: 'cyan',
+    href: 'https://arkisgroup.co',
+  },
+  {
+    id: 'sentria',
+    name: 'SENTRIA',
+    domain: 'sentria.co',
+    status: 'beta',
+    taglineKey: 'p.sentria.tag',
+    descriptionKey: 'p.sentria.desc',
+    tags: ['SG-SST', 'YOLOv8', 'Computer Vision', '.NET 8', 'TimescaleDB'],
+    accent: 'violet',
+  },
+  {
+    id: 'vigia',
+    name: 'VIGIA',
+    domain: 'vigia.co',
+    status: 'soon',
+    taglineKey: 'p.vigia.tag',
+    descriptionKey: 'p.vigia.desc',
+    tags: ['Drones DJI', 'IoT LoRaWAN', 'YOLOv8', 'SignalR', 'WhatsApp'],
+    accent: 'fuchsia',
+  },
+  {
+    id: 'mitecho',
+    name: 'MiTecho',
+    domain: 'mitecho.co',
+    status: 'live',
+    taglineKey: 'p.mitecho.tag',
+    descriptionKey: 'p.mitecho.desc',
+    tags: ['PropTech', 'Claude AI', 'Wompi', 'Next.js', 'Supabase'],
+    accent: 'cyan',
+  },
+  {
+    id: 'kvelta',
+    name: 'KVELTA',
+    status: 'beta',
+    taglineKey: 'p.kvelta.tag',
+    descriptionKey: 'p.kvelta.desc',
+    tags: ['Rust', 'Axum', 'PII Anonymization', 'GDPR', 'Multi-LLM'],
+    accent: 'amber',
+  },
+  {
+    id: 'lektor',
+    name: 'LEKTOR',
+    status: 'soon',
+    taglineKey: 'p.lektor.tag',
+    descriptionKey: 'p.lektor.desc',
+    tags: ['FACS', 'Smart Glasses', 'Llama 3', '<200ms', 'Edge AI'],
+    accent: 'rose',
+  },
+  {
+    id: 'patchd',
+    name: 'PATCHD',
+    status: 'live',
+    taglineKey: 'p.patchd.tag',
+    descriptionKey: 'p.patchd.desc',
+    tags: ['10 AI Agents', 'Local SEO', 'Next.js 15', 'Cloudflare'],
+    accent: 'emerald',
+  },
+  {
+    id: 'tcv',
+    name: 'Tu Cliente Vuelve',
+    status: 'soon',
+    taglineKey: 'p.tcv.tag',
+    descriptionKey: 'p.tcv.desc',
+    tags: ['WhatsApp', 'Claude Haiku', 'Fastify', 'Loyalty', 'BullMQ'],
+    accent: 'violet',
+  },
+  {
+    id: 'safyquest',
+    name: 'SafyQuest',
+    status: 'soon',
+    taglineKey: 'p.safyquest.tag',
+    descriptionKey: 'p.safyquest.desc',
+    tags: ['Claude', 'ElevenLabs', 'PostGIS', 'Flutter', 'FastAPI'],
+    accent: 'amber',
+  },
+  {
+    id: 'swat',
+    name: 'SWAT-as-a-Service',
+    status: 'live',
+    taglineKey: 'p.swat.tag',
+    descriptionKey: 'p.swat.desc',
+    tags: ['Crisis Recovery', 'RAPID', 'Architecture Audit', 'Fixed-price'],
+    accent: 'rose',
+  },
+  {
+    id: 'kratos',
+    name: 'KRATOS',
+    status: 'beta',
+    taglineKey: 'p.kratos.tag',
+    descriptionKey: 'p.kratos.desc',
+    tags: ['Oil & Gas', 'SCADA', 'Modbus/OPC UA', 'Three.js', 'React Native'],
+    accent: 'amber',
+  },
+  {
+    id: 'nashville',
+    name: 'NASHVILLE',
+    status: 'beta',
+    taglineKey: 'p.nashville.tag',
+    descriptionKey: 'p.nashville.desc',
+    tags: ['Edge AI', '140+ Agents', 'Jetson', 'Kafka', 'TimescaleDB'],
+    accent: 'fuchsia',
+  },
+  {
+    id: 'nexusai',
+    name: 'NexusAI',
+    status: 'beta',
+    taglineKey: 'p.nexusai.tag',
+    descriptionKey: 'p.nexusai.desc',
+    tags: ['CrewAI', 'Multi-LLM', 'Sales Automation', 'Next.js 15'],
+    accent: 'violet',
+  },
+  {
+    id: 'forge',
+    name: 'FORGE',
+    status: 'soon',
+    taglineKey: 'p.forge.tag',
+    descriptionKey: 'p.forge.desc',
+    tags: ['Rust', 'Terminal IDE', 'tree-sitter', 'WASM', 'LSP'],
+    accent: 'amber',
+  },
+  {
+    id: 'flowscope',
+    name: 'FlowScope',
+    status: 'beta',
+    taglineKey: 'p.flowscope.tag',
+    descriptionKey: 'p.flowscope.desc',
+    tags: ['Rust', 'Observability', 'Multi-language', 'LLM Bridge'],
+    accent: 'cyan',
+  },
+  {
+    id: 'kontae',
+    name: 'KONTAE',
+    status: 'beta',
+    taglineKey: 'p.kontae.tag',
+    descriptionKey: 'p.kontae.desc',
+    tags: ['DIAN UBL 2.1', 'Claude', '.NET 8', 'PWA', 'Open Banking'],
+    accent: 'emerald',
+  },
+];

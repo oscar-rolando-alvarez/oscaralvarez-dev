@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "stack": "Stack",
+    "products": "Products",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "hero": {
+    "eyebrow": "Open to remote global roles",
+    "name": "Oscar Rolando Alvarez",
+    "title": "Principal AI Systems Architect",
+    "subtitle": "AI Infrastructure · Cloud-Native Platforms",
+    "tagline": "I design and scale real-time {distributed} processing telemetry from {iot} with {latency} latency, embedding LLM intelligence into enterprise platforms.",
+    "distributed": "distributed systems",
+    "iot": "6.2M+ IoT devices",
+    "latency": "sub-second",
+    "ctaPrimary": "Let's talk",
+    "ctaSecondary": "View products",
+    "scroll": "Scroll to explore"
+  },
+  "stats": {
+    "iotDevices": "IoT devices monitored",
+    "yearsProduction": "Years in production systems",
+    "latency": "Processing latency",
+    "verticals": "Industry verticals"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "I build {highlight} at continental scale.",
+    "highlight": "intelligent platforms",
+    "p1": "Principal-level AI Systems Architect with 23+ years designing and scaling distributed systems, real-time data platforms, and cloud-native AI infrastructure. Proven track record building large-scale event-driven architectures processing telemetry from 6.2M+ IoT devices in production with sub-second latency, and integrating LLM-powered intelligence into enterprise platforms.",
+    "p2": "Deep expertise in AI platform architecture, real-time streaming systems (Apache Kafka, AWS Kinesis), and cloud-native distributed computing across AWS ecosystems. Strong background leading architecture evolution, mentoring engineering teams, and translating complex business challenges into scalable AI-driven systems. Currently focused on AI decision systems, LLM-enabled automation, and next-generation intelligent cloud platforms.",
+    "p3": "As founder of {arkis}, I lead a business group specializing in PropTech, cybersecurity, AI, and digital transformation, with a catalog of 10+ products that have generated USD 85M+ in documented client savings and run 140+ AI agents in production.",
+    "arkis": "ARKIS GROUP"
+  },
+  "core": {
+    "eyebrow": "Core expertise",
+    "title": "Four pillars, one integrated vision",
+    "ai": {
+      "title": "AI & Intelligent Systems",
+      "i1": "AI Platform Architecture & Design",
+      "i2": "LLM Integration (OpenAI, Claude, LangChain)",
+      "i3": "AI Decision Systems & Pipelines",
+      "i4": "Intelligent Automation & Alerting",
+      "i5": "Real-time AI-Powered Analytics"
+    },
+    "streaming": {
+      "title": "Distributed Systems & Streaming",
+      "i1": "Event-Driven Architecture (EDA)",
+      "i2": "Apache Kafka / AWS Kinesis",
+      "i3": "High-Throughput Streaming Platforms",
+      "i4": "Real-time Telemetry Processing",
+      "i5": "Data Lake & Analytics Architecture"
+    },
+    "cloud": {
+      "title": "Cloud & Infrastructure",
+      "i1": "AWS Serverless & Event-Driven",
+      "i2": "Kubernetes, Docker, ECS/EKS",
+      "i3": "Infrastructure as Code (Terraform)",
+      "i4": "CI/CD Pipelines & DevOps",
+      "i5": "Multi-region Distributed Systems"
+    },
+    "leadership": {
+      "title": "Leadership & Delivery",
+      "i1": "Technical Strategy & Architecture Ownership",
+      "i2": "Mentoring Senior & Mid-Level Engineers",
+      "i3": "Cross-Functional Team Collaboration",
+      "i4": "Enterprise System Modernization",
+      "i5": "Stakeholder & Client Communication"
+    }
+  },
+  "experience": {
+    "eyebrow": "Professional experience",
+    "title": "Two decades solving mission-critical problems",
+    "leantech": {
+      "role": "Solutions Architect & Tech Lead",
+      "summary": "Architected and delivered a large-scale real-time monitoring platform handling telemetry from 6.2M+ connected devices with sub-second processing latency.",
+      "h1": "Designed event-driven distributed architecture using Apache Kafka and AWS streaming services for high-throughput real-time analytics across millions of IoT endpoints",
+      "h2": "Built serverless ingestion pipelines with AWS Lambda, Kinesis Data Streams and Kinesis Firehose enabling scalable, AI-ready data platforms",
+      "h3": "Developed AI-powered operational intelligence using LLM integrations (OpenAI API) for automated incident analysis and intelligent alerting systems",
+      "h4": "Created cloud-native data lake using AWS Athena enabling near real-time business intelligence and decision support for operations teams",
+      "h5": "Led invoice automation internal project leveraging Python, Django, and AWS services, reducing manual processing time significantly",
+      "h6": "Mentored development teams on cloud-native architectures, event streaming patterns, and AI/ML integration best practices"
+    },
+    "elenas": {
+      "role": "Staff DevOps & Software Architect",
+      "summary": "Led cloud architecture modernization and platform evolution for one of LATAM's largest social commerce ecosystems.",
+      "h1": "Migrated distributed services from Heroku to AWS-based cloud-native infrastructure, improving reliability and scalability",
+      "h2": "Designed and built scalable payment processing systems (Hermes) and microservices architectures using GraphQL and event-driven patterns",
+      "h3": "Implemented Kubernetes-based deployment templates and CI/CD automation pipelines for all new services",
+      "h4": "Led a team of 5 developers and a UX designer, coordinating architecture, delivery, and integration with ERP NetSuite",
+      "h5": "Redesigned payment-processing architecture with Huski and GraphQL, improving transaction throughput"
+    },
+    "colamerica": {
+      "role": "Senior Software Engineer & Team Leader",
+      "summary": "Led development of COLANET, a multi-state client administration system for Hispanic financial services.",
+      "h1": "Architected and delivered enterprise platform spanning operations across three U.S. states",
+      "h2": "Led full engineering team, managing delivery timelines, quality, and technical decisions"
+    },
+    "futlogy": {
+      "role": "Software Architect",
+      "summary": "Designed backend architecture for Colombia's national hydrocarbon regulatory platform (IDP 2.0).",
+      "h1": "Architected data transformation ETL pipelines and customer service flow management systems",
+      "h2": "Created an early Blockchain MVP prototype in .NET for regulatory transparency use case"
+    },
+    "consultant": {
+      "role": "Senior Software Architect & Consultant",
+      "summary": "Delivered mission-critical distributed systems and enterprise platforms across regulated industries.",
+      "h1": "Designed financial and payment processing systems across multi-region architectures (Ecopetrol, EAM Consultoría)",
+      "h2": "Built data-intensive enterprise platforms for government agencies (Cámara de Comercio de Bogotá, ICETEX)",
+      "h3": "Delivered large-scale backend architectures using .NET, Java, and Python ecosystems for oil & energy sector",
+      "h4": "Implemented enterprise reporting and BI systems across Oracle and SQL Server environments",
+      "h5": "Developed payroll portal and legacy system migration tools for Ecopetrol (9 legacy systems consolidated)"
+    },
+    "cepcolsa": {
+      "role": "Database Administrator & Infrastructure Engineer",
+      "summary": "Foundation years: built deep expertise in enterprise database systems, infrastructure, and production operations.",
+      "h1": "Administered production databases for oil & energy companies (SQL Server, Oracle 11g)",
+      "h2": "Managed Linux infrastructure, geoscience applications and mass storage systems",
+      "h3": "Developed web applications and integrated information systems for accounting, finance and logistics"
+    }
+  },
+  "stack": {
+    "eyebrow": "Technology Stack",
+    "title": "Languages, frameworks and platforms I work with daily",
+    "languages": "Languages",
+    "aiData": "AI & Data",
+    "cloud": "Cloud",
+    "frameworks": "Frameworks",
+    "databases": "Databases",
+    "verticals": "Verticals"
+  },
+  "products": {
+    "eyebrow": "Products & Arkis ecosystem",
+    "title": "What I'm building {highlight}",
+    "highlight": "right now",
+    "subtitle": "Product catalog from the ARKIS GROUP business holding I founded, specialized in PropTech, cybersecurity, AI, and digital transformation for LATAM.",
+    "status": {
+      "live": "Live",
+      "beta": "Beta",
+      "soon": "Coming soon"
+    },
+    "visit": "Visit",
+    "viewAll": "Visit Arkis Group"
+  },
+  "p": {
+    "arkis": {
+      "tag": "Tech holding company",
+      "desc": "Business group specialized in PropTech, cybersecurity, AI, and digital transformation. 10+ digital products, USD 85M+ in documented client savings, and 140+ AI agents in production for the LATAM ecosystem."
+    },
+    "sentria": {
+      "tag": "Workplace safety platform",
+      "desc": "Multi-tenant SaaS platform for workplace safety with real-time PPE detection using YOLOv8, predictive analytics with Claude, SafePoints gamification, 3D digital twin and Decree 1072 compliance."
+    },
+    "vigia": {
+      "tag": "AI surveillance with drones",
+      "desc": "Multi-tenant SaaS surveillance platform combining IP cameras with Computer Vision (YOLOv8), DJI autonomous drones, and LoRaWAN IoT sensors. Real-time command center with SignalR and WhatsApp."
+    },
+    "mitecho": {
+      "tag": "PropTech for Colombian families",
+      "desc": "Mobile-first PWA built with Next.js 14 and Supabase to prepare families (1-15 SMMLV) for mortgage credit: calculator, bank comparison, subsidy verifier, and Victoria AI advisor powered by Claude."
+    },
+    "kvelta": {
+      "tag": "Enterprise AI governance",
+      "desc": "Smart gateway between employees and LLMs (OpenAI, Claude, Gemini, Mistral, Cohere). Anonymizes PII, controls per-user budgets, semantic caching, and compliance auditing. Rust + Axum + PostgreSQL."
+    },
+    "lektor": {
+      "tag": "Real-time behavioral intelligence",
+      "desc": "Platform reading FACS micro-expressions, posture, vocal prosody, and gaze to deliver coaching in under 200ms via mobile and smart glasses. On-device Llama 3 8B + Claude API in the cloud."
+    },
+    "patchd": {
+      "tag": "AI-powered digital presence",
+      "desc": "10 AI agents automating local digital presence (Google Maps, reviews, website, local SEO) for local businesses. Tiered pricing, ROI calculator, and lead capture. Next.js 15 on Cloudflare Workers."
+    },
+    "tcv": {
+      "tag": "WhatsApp loyalty SaaS",
+      "desc": "Loyalty SaaS for Colombian micro-businesses. Smart bot powered by Claude Haiku, digital tabs, loyalty programs, automated campaigns, and referral network. Fastify + Prisma + BullMQ."
+    },
+    "safyquest": {
+      "tag": "AI travel assistance",
+      "desc": "LATAM platform with voice-to-voice translation Claude+ElevenLabs, Safy concierge, geo-contextual Safy Guardian, PostGIS maps, PIN-based SafyRide and hidden gems. FastAPI + Flutter."
+    },
+    "swat": {
+      "tag": "Crisis project rescue",
+      "desc": "Crisis project rescue consulting using proprietary RAPID methodology. Three fixed tiers (USD 8-15K, 35-80K, 80-200K) — no hourly fees. Architecture audits and stabilization."
+    },
+    "kratos": {
+      "tag": "Upstream oil control",
+      "desc": "Enterprise platform for upstream oil & gas with .NET 8 Clean Architecture microservices, Blazor Server, React 19 + MUI, Three.js 3D visualization, offline React Native app, and SCADA Modbus/OPC UA integration."
+    },
+    "nashville": {
+      "tag": "Edge AI for oil & gas",
+      "desc": "Edge AI platform with real-time SCADA monitoring, 140+ autonomous CrewAI agents, offline computing on Jetson nodes, 3D GIS digital twin, and regulatory compliance. .NET 8 + Kafka + TimescaleDB."
+    },
+    "nexusai": {
+      "tag": "AI sales automation",
+      "desc": "Sales automation platform with autonomous agents, multi-vendor orchestration (OpenAI, DeepSeek, Anthropic, Gemini), LangChain and CrewAI. Executive dashboard and acceleration engine."
+    },
+    "forge": {
+      "tag": "AI-native terminal IDE",
+      "desc": "AI-agnostic terminal-native IDE written in Rust with full modal vim editing, ratatui, tree-sitter for 30+ languages, multiplexed LSP and DAP, WASM plugins, and a closed intelligence loop."
+    },
+    "flowscope": {
+      "tag": "Universal observability",
+      "desc": "Universal instrumentation and observability platform written in Rust with near-zero overhead. Instruments any function in Python, Node, Go, Java, .NET, and Rust. Detects bottlenecks via structural fingerprinting."
+    },
+    "kontae": {
+      "tag": "Colombian e-invoicing",
+      "desc": "SaaS for Colombian SMBs with DIAN UBL 2.1 e-invoicing signed with PKCS#12, Victoria Fiscal AI on Claude, e-payroll, Open Banking reconciliation, and tax calendar. .NET 8 + React 19 PWA."
+    }
+  },
+  "education": {
+    "eyebrow": "Education",
+    "title": "Education",
+    "degree": "Bachelor's Degree in Software Engineering",
+    "school": "Universidad Católica de Colombia",
+    "languagesLabel": "Languages",
+    "english": "English: Professional Working Proficiency (B2 Upper-Intermediate)",
+    "spanish": "Spanish: Native"
+  },
+  "contact": {
+    "eyebrow": "Let's talk",
+    "title": "Shall we build something {highlight}?",
+    "highlight": "extraordinary",
+    "subtitle": "Open to remote global roles, architecture advisory, and projects where AI and distributed systems are at the heart of the product.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "arkis": "Arkis Group",
+    "writeMe": "Write me"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Built with Next.js, Tailwind, and Framer Motion · Deployed on Vercel"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "lang": {
+    "switch": "Switch language"
+  }
+}
