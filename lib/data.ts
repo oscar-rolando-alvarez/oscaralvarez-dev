@@ -23,10 +23,10 @@ export const githubStats = {
 };
 
 // Rate of reference — Principal-level architect. Edit here to update across the site.
+// Floor: USD 7,500/month for full-time engagements.
 export const rate = {
   hourly: 'USD 120/hr',
-  // monthly rough equivalent for full-time engagements (160h * 0.65 utilization tier)
-  retainer: 'USD 12K — 18K / month',
+  retainer: 'From USD 7.5K / month',
   availability: '20–40 h / week',
   engagement: 'Remote · global · async-friendly',
 };

@@ -9,6 +9,7 @@ import { Experience } from '@/components/experience';
 import { TechStack } from '@/components/tech-stack';
 import { Products } from '@/components/products';
 import { Education } from '@/components/education';
+import { RateCard } from '@/components/rate-card';
 import { Contact } from '@/components/contact';
 import { Marquee } from '@/components/marquee';
 
@@ -33,6 +34,7 @@ export default async function HomePage({
       <TechStack />
       <Products />
       <Education />
+      <RateCard />
       <Contact />
     </>
   );
