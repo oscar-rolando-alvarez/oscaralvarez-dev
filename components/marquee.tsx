@@ -1,17 +1,20 @@
 'use client';
 
 const items = [
-  'AI Systems Architect',
+  'Languages over Frameworks',
+  'Protocols over Abstractions',
+  'Production over Prototypes',
+  '48 Own Repos · 0 Forks',
   '6.2M+ IoT Devices',
   'Sub-second Latency',
-  'Apache Kafka',
-  'AWS Kinesis',
-  'LLM Integration',
-  'Event-Driven Architecture',
-  'Cloud-Native',
-  '23+ Years',
+  'Apache Kafka · AWS Kinesis',
+  'JavaScript · TypeScript · Rust · Go · Python · Java · C#',
+  'HTTP/2 · gRPC · WebSocket · MQTT · Modbus · OPC UA',
+  '16 Products in Production',
+  '23+ Years · Since 1998',
   'Bogotá · Remote · Global',
   'Founder of Arkis Group',
+  'Weekly Ship Cadence',
 ];
 
 export function Marquee() {

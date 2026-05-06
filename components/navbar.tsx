@@ -11,6 +11,7 @@ import { ThemeToggle } from './theme-toggle';
 
 const sections = [
   { id: 'about', key: 'about' },
+  { id: 'principles', key: 'principles' },
   { id: 'experience', key: 'experience' },
   { id: 'stack', key: 'stack' },
   { id: 'products', key: 'products' },

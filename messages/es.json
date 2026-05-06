@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "Sobre mí",
+    "principles": "Principios",
     "experience": "Experiencia",
     "stack": "Stack",
     "products": "Productos",
@@ -8,17 +9,24 @@
     "resume": "CV"
   },
   "hero": {
-    "eyebrow": "Disponible para roles globales remotos",
+    "eyebrow": "Disponible · Remoto global · Async-friendly",
     "name": "Oscar Rolando Álvarez",
     "title": "Principal AI Systems Architect",
-    "subtitle": "Infraestructura AI · Plataformas Cloud-Native",
-    "tagline": "Diseño y escalo {distributed} en tiempo real que procesan telemetría de {iot} con latencia {latency}, integrando inteligencia LLM en plataformas empresariales.",
+    "subtitle": "Lenguajes sobre frameworks · Protocolos sobre abstracciones · Producción sobre prototipos",
+    "tagline": "Diseño y escalo {distributed} en tiempo real que procesan telemetría de {iot} con latencia {latency}, integrando inteligencia LLM en plataformas empresariales. {ships} {languages} {github}",
     "distributed": "sistemas distribuidos",
     "iot": "6.2M+ dispositivos IoT",
     "latency": "sub-segundo",
+    "ships": "Ship semanal a producción.",
+    "languages": "10 lenguajes en uso real.",
+    "github": "48 repos propios, 0 forks.",
     "ctaPrimary": "Hablemos",
     "ctaSecondary": "Ver productos",
-    "scroll": "Desliza para explorar"
+    "scroll": "Desliza para explorar",
+    "miniStat1": "48 repos",
+    "miniStat2": "16 productos en producción",
+    "miniStat3": "0 forks",
+    "miniStat4": "desde 1998"
   },
   "stats": {
     "iotDevices": "Dispositivos IoT monitoreados",
@@ -28,11 +36,11 @@
   },
   "about": {
     "eyebrow": "Sobre mí",
-    "title": "Construyo {highlight} a escala continental.",
+    "title": "Construyo {highlight} a escala continental — sin atarme a un framework.",
     "highlight": "plataformas inteligentes",
     "p1": "Arquitecto de sistemas con perfil Principal y más de 23 años diseñando y escalando sistemas distribuidos, plataformas de datos en tiempo real e infraestructura AI cloud-native. He entregado arquitecturas event-driven a gran escala que procesan telemetría desde más de 6.2 millones de dispositivos IoT en producción con latencia sub-segundo, e integran inteligencia con LLMs en sistemas empresariales.",
-    "p2": "Mi expertise está en arquitectura de plataformas de IA, sistemas de streaming en tiempo real (Apache Kafka, AWS Kinesis) y cómputo distribuido cloud-native sobre el ecosistema AWS. Lidero la evolución arquitectural de productos, mentoría a equipos de ingeniería y traduzco retos de negocio complejos en sistemas escalables impulsados por IA. Hoy mi foco está en sistemas de decisión con IA, automatización con LLMs y plataformas inteligentes de próxima generación.",
-    "p3": "Como fundador de {arkis}, lidero un grupo empresarial enfocado en PropTech, ciberseguridad, IA y transformación digital, con un catálogo de 10+ productos que han generado más de USD 85M en ahorros documentados a clientes y operan más de 140 agentes de IA en producción.",
+    "p2": "No me defino por un framework. Trabajo en 10 lenguajes — JavaScript, TypeScript, Python, Java, C#, Rust, Go, Dart, SQL, Bash — y elijo el stack según el problema, no según mi zona de confort. Si la solución pide Node.js puro, lo hago en Node puro. Si pide un servicio Rust con Axum, lo construyo en Rust. Los frameworks son atajos opcionales: la base es entender los lenguajes y los protocolos por debajo.",
+    "p3": "Como fundador de {arkis}, lidero un grupo empresarial enfocado en PropTech, ciberseguridad, IA y transformación digital, con un catálogo de 16 productos en producción que han generado más de USD 85M en ahorros documentados a clientes y operan más de 140 agentes de IA. 48 repos propios, 0 forks: cada línea es código original.",
     "arkis": "ARKIS GROUP"
   },
   "core": {
@@ -124,13 +132,68 @@
   },
   "stack": {
     "eyebrow": "Technology Stack",
-    "title": "Lenguajes, frameworks y plataformas con los que trabajo a diario",
+    "title": "Lenguajes y protocolos primero. Frameworks como herramienta, no como identidad.",
+    "subtitle": "Los frameworks son herramientas que recojo cuando tienen sentido. La fuerza está en los lenguajes y los protocolos: si mañana desaparecen Next.js, Django o SpringBoot, el sistema sigue en pie porque las decisiones se tomaron en HTTP, TCP y SQL.",
     "languages": "Lenguajes",
+    "protocols": "Protocolos & redes",
     "aiData": "IA & Datos",
     "cloud": "Cloud",
-    "frameworks": "Frameworks",
+    "frameworks": "Frameworks (herramientas)",
     "databases": "Bases de Datos",
-    "verticals": "Verticales"
+    "verticals": "Verticales",
+    "primaryBadge": "Núcleo",
+    "secondaryBadge": "Herramienta"
+  },
+  "principles": {
+    "eyebrow": "Cómo opero",
+    "title": "Principios técnicos no-negociables",
+    "subtitle": "Lo que separa un desarrollador-de-framework de un ingeniero de sistemas.",
+    "p1": {
+      "t": "Lenguajes sobre frameworks",
+      "b": "Domino los lenguajes (JavaScript, TypeScript, Python, Java, C#, Rust, Go) y los protocolos (HTTP, TCP, gRPC, MQTT, Modbus, OPC UA). Los frameworks son atajos opcionales, no requisitos. Si mañana retiran Next.js o SpringBoot, el sistema sigue funcionando."
+    },
+    "p2": {
+      "t": "Protocolos sobre abstracciones",
+      "b": "Diseño en HTTP/2, gRPC, WebSocket, MQTT y patrones event-driven. Sé qué pasa por debajo cuando una librería hace una llamada — y sé construir el caso especial sin la librería."
+    },
+    "p3": {
+      "t": "Producción sobre prototipos",
+      "b": "16 productos en producción, no slides. Cada repo de Arkis tiene Docker, CI/CD, observabilidad y lleva carga real. Lo que demuestro es lo que ya está corriendo, no lo que voy a construir."
+    },
+    "p4": {
+      "t": "Ship semanal, no mensual",
+      "b": "48 repos propios, 0 forks. La cadencia de entrega es semanal o mejor: arquitectura → implementación → deploy → telemetría. Vivo del flujo, no del último sprint épico."
+    },
+    "p5": {
+      "t": "Sistemas distribuidos primero",
+      "b": "23+ años en sistemas críticos: SCADA en oil & gas, IoT con 6.2M+ dispositivos, plataformas multi-región, event streaming con Kafka/Kinesis. Nada de esto se aprende leyendo docs de framework."
+    },
+    "p6": {
+      "t": "Mide o no existe",
+      "b": "Si no tiene métrica, no está terminado. Latencia sub-segundo, telemetría a nivel de evento, observabilidad con OpenTelemetry y dashboards que cualquiera puede leer. Sin números, son opiniones."
+    }
+  },
+  "github": {
+    "eyebrow": "Build cadence",
+    "title": "Lo que ya construí — números reales",
+    "subtitle": "GitHub público y privado consolidado. 0 forks: cada repo es código original, escrito y mantenido por mí.",
+    "totalRepos": "Repos propios",
+    "publicRepos": "Públicos",
+    "privateRepos": "Privados",
+    "forks": "Forks",
+    "products": "Productos en producción",
+    "yearsActive": "Años activo",
+    "languages": "Lenguajes en uso real",
+    "viewProfile": "Ver perfil GitHub"
+  },
+  "rate": {
+    "eyebrow": "Rate de referencia",
+    "title": "Tarifa transparente",
+    "hourly": "Por hora",
+    "retainer": "Retainer mensual",
+    "availability": "Disponibilidad",
+    "engagement": "Modelo de trabajo",
+    "note": "El rate es público porque mi precio es mi posición. Negocio el alcance, no el rate. Modalidades: hora, sprint fijo o retainer mensual."
   },
   "products": {
     "eyebrow": "Productos & ecosistema Arkis",

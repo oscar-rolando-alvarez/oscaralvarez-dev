@@ -78,8 +78,41 @@ export function Hero() {
             latency: (chunks) => (
               <span className="font-mono text-accent-violet">{chunks}</span>
             ),
+            ships: (chunks) => (
+              <span className="font-medium text-accent-fuchsia">{chunks}</span>
+            ),
+            languages: (chunks) => (
+              <span className="font-medium text-foreground">{chunks}</span>
+            ),
+            github: (chunks) => (
+              <span className="font-mono text-accent-amber">{chunks}</span>
+            ),
           })}
         </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.35 }}
+          className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-[11px] uppercase tracking-[0.25em] text-muted-foreground/80"
+        >
+          <span className="inline-flex items-center gap-1.5">
+            <span className="h-1.5 w-1.5 rounded-full bg-accent-cyan" />
+            {t('miniStat1')}
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <span className="h-1.5 w-1.5 rounded-full bg-accent-violet" />
+            {t('miniStat2')}
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <span className="h-1.5 w-1.5 rounded-full bg-accent-fuchsia" />
+            {t('miniStat3')}
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <span className="h-1.5 w-1.5 rounded-full bg-accent-amber" />
+            {t('miniStat4')}
+          </span>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 16 }}

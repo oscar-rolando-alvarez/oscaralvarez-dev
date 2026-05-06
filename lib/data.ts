@@ -10,6 +10,27 @@ export const stats: StatItem[] = [
   { value: '5+', labelKey: 'verticals' },
 ];
 
+// Real GitHub footprint — pulled from `gh repo list`. 0 forks: every repo is original work.
+export const githubStats = {
+  username: 'oscar-rolando-alvarez',
+  totalRepos: 48,
+  publicRepos: 5,
+  privateRepos: 43,
+  forks: 0,
+  productsInProduction: 16,
+  yearsActive: 23,
+  primaryLanguages: ['TypeScript', 'Python', 'C#', 'Rust', 'Go', 'Java'],
+};
+
+// Rate of reference — Principal-level architect. Edit here to update across the site.
+export const rate = {
+  hourly: 'USD 120/hr',
+  // monthly rough equivalent for full-time engagements (160h * 0.65 utilization tier)
+  retainer: 'USD 12K — 18K / month',
+  availability: '20–40 h / week',
+  engagement: 'Remote · global · async-friendly',
+};
+
 export type ExperienceItem = {
   id: string;
   company: string;
@@ -160,12 +181,20 @@ export const coreCompetencies: CoreCompetency[] = [
 export type StackCategory = {
   titleKey: string;
   items: string[];
+  emphasis?: 'primary' | 'secondary';
 };
 
+// Languages first. Frameworks are tools, not identity.
 export const techStack: StackCategory[] = [
   {
     titleKey: 'stack.languages',
-    items: ['Python', 'Java', 'C# / .NET', 'TypeScript', 'JavaScript', 'Rust', 'Go', 'SQL'],
+    items: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C# / .NET', 'Rust', 'Go', 'SQL', 'Bash', 'Dart'],
+    emphasis: 'primary',
+  },
+  {
+    titleKey: 'stack.protocols',
+    items: ['HTTP/2', 'HTTP/3', 'gRPC', 'WebSocket', 'WebRTC', 'MQTT', 'AMQP', 'Modbus', 'OPC UA', 'DNP3', 'TCP/UDP'],
+    emphasis: 'primary',
   },
   {
     titleKey: 'stack.aiData',
@@ -176,17 +205,33 @@ export const techStack: StackCategory[] = [
     items: ['AWS Lambda', 'Kinesis', 'Athena', 'ECS', 'EKS', 'S3', 'CloudWatch', 'CloudFront', 'Docker', 'Kubernetes', 'Terraform', 'CI/CD'],
   },
   {
-    titleKey: 'stack.frameworks',
-    items: ['Django', 'Flask', 'FastAPI', 'SpringBoot', 'ASP.NET', 'Next.js', 'React', 'Vue', 'GraphQL'],
-  },
-  {
     titleKey: 'stack.databases',
     items: ['PostgreSQL', 'MongoDB', 'MySQL', 'SQL Server', 'Oracle', 'Redis', 'TimescaleDB', 'Neo4j', 'RabbitMQ'],
+  },
+  {
+    titleKey: 'stack.frameworks',
+    items: ['Node.js', 'Django', 'Flask', 'FastAPI', 'SpringBoot', 'ASP.NET', 'Next.js', 'React', 'Vue', 'GraphQL', 'Axum (Rust)'],
+    emphasis: 'secondary',
   },
   {
     titleKey: 'stack.verticals',
     items: ['Telecommunications (IoT)', 'Oil & Energy', 'Government', 'E-commerce', 'FinTech', 'Real Estate', 'HealthTech'],
   },
+];
+
+// Operating principles — first-principles posture for a Principal-level engineer.
+export type Principle = {
+  titleKey: string;
+  bodyKey: string;
+};
+
+export const principles: Principle[] = [
+  { titleKey: 'principles.p1.t', bodyKey: 'principles.p1.b' },
+  { titleKey: 'principles.p2.t', bodyKey: 'principles.p2.b' },
+  { titleKey: 'principles.p3.t', bodyKey: 'principles.p3.b' },
+  { titleKey: 'principles.p4.t', bodyKey: 'principles.p4.b' },
+  { titleKey: 'principles.p5.t', bodyKey: 'principles.p5.b' },
+  { titleKey: 'principles.p6.t', bodyKey: 'principles.p6.b' },
 ];
 
 export const contact = {

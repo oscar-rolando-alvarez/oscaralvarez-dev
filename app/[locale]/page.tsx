@@ -2,10 +2,13 @@ import { setRequestLocale } from 'next-intl/server';
 import { Hero } from '@/components/hero';
 import { Stats } from '@/components/stats';
 import { About } from '@/components/about';
+import { Principles } from '@/components/principles';
+import { GitHubActivity } from '@/components/github-activity';
 import { Experience } from '@/components/experience';
 import { TechStack } from '@/components/tech-stack';
 import { Products } from '@/components/products';
 import { Education } from '@/components/education';
+import { RateCard } from '@/components/rate-card';
 import { Contact } from '@/components/contact';
 import { Marquee } from '@/components/marquee';
 
@@ -23,10 +26,13 @@ export default async function HomePage({
       <Stats />
       <Marquee />
       <About />
+      <Principles />
+      <GitHubActivity />
       <Experience />
       <TechStack />
       <Products />
       <Education />
+      <RateCard />
       <Contact />
     </>
   );
