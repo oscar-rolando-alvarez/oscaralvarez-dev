@@ -27,14 +27,14 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://oscaralvarez.dev'),
+  metadataBase: new URL('https://oscar-alvarez.dev'),
   title: {
     default: 'Oscar Alvarez · Principal AI Systems Architect',
     template: '%s · Oscar Alvarez',
   },
   description:
     'Principal AI Systems Architect with 23+ years building distributed real-time platforms and cloud-native AI infrastructure. Founder of Arkis Group.',
-  authors: [{ name: 'Oscar Rolando Alvarez Cardenas', url: 'https://oscaralvarez.dev' }],
+  authors: [{ name: 'Oscar Rolando Alvarez Cardenas', url: 'https://oscar-alvarez.dev' }],
   creator: 'Oscar Rolando Alvarez Cardenas',
   keywords: [
     'AI Systems Architect',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: 'Oscar Alvarez · Principal AI Systems Architect',
     description:
       'Designing distributed real-time platforms processing telemetry from 6.2M+ IoT devices with sub-second latency, and embedding LLM intelligence into enterprise systems.',
-    siteName: 'oscaralvarez.dev',
+    siteName: 'oscar-alvarez.dev',
   },
   twitter: {
     card: 'summary_large_image',

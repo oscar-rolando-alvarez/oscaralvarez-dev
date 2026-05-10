@@ -1,4 +1,4 @@
-# oscaralvarez.dev
+# oscar-alvarez.dev
 
 Sitio personal de **Oscar Rolando Alvarez Cardenas** — Principal AI Systems Architect.
 Bilingüe (Español / English), con efectos visuales modernos y desplegable en Vercel.

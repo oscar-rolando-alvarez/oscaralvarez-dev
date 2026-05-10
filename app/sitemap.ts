@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { locales } from '@/i18n/request';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://oscaralvarez.dev';
+  const base = 'https://oscar-alvarez.dev';
   return locales.map((locale) => ({
     url: `${base}/${locale}`,
     lastModified: new Date(),

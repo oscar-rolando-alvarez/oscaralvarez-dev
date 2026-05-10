@@ -54,7 +54,7 @@ export function Navbar() {
             <span className="absolute inset-0 bg-noise opacity-40 mix-blend-overlay" />
             OA
           </span>
-          <span className="hidden text-sm sm:inline">oscaralvarez.dev</span>
+          <span className="hidden text-sm sm:inline">oscar-alvarez.dev</span>
         </Link>
 
         <ul className="hidden items-center gap-1 md:flex">
