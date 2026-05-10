@@ -320,3 +320,12 @@ export const contact = {
   linkedin: 'https://www.linkedin.com/in/oscar-rolando-alvarez',
   arkis: 'https://arkisgroup.co',
 };
+
+// Conversion endpoints. All optional — set the env vars in Vercel to activate.
+// Cal.com link (e.g. "oscar-alvarez/30min") opens scheduler; falls back to mailto when unset.
+// Web3Forms key (https://web3forms.com) accepts the contact form POST; falls back to mailto when unset.
+export const conversion = {
+  calLink: process.env.NEXT_PUBLIC_CAL_LINK ?? '',
+  web3formsKey: process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? '',
+  investorEmail: process.env.NEXT_PUBLIC_INVESTOR_EMAIL ?? 'oralvarez@gmail.com',
+};

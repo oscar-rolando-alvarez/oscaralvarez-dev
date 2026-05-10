@@ -1,5 +1,9 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter, Space_Grotesk, JetBrains_Mono } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { PostHogProvider } from '@/components/posthog-provider';
+import { JsonLd } from '@/components/json-ld';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -66,6 +70,9 @@ export const metadata: Metadata = {
       'Distributed systems & cloud-native AI infrastructure. 23+ years. Founder of Arkis Group.',
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION,
+  },
 };
 
 export default function RootLayout({
@@ -78,7 +85,12 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrains.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <PostHogProvider>{children}</PostHogProvider>
+        <JsonLd />
+        <Analytics />
+        <SpeedInsights />
+      </body>
     </html>
   );
 }

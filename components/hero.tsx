@@ -3,9 +3,15 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { useRef } from 'react';
-import { ArrowDown, ArrowUpRight, Sparkles } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, CalendarCheck, Sparkles } from 'lucide-react';
 import { AnimatedBackground } from './animated-bg';
 import { Magnetic } from './magnetic';
+import { conversion, contact } from '@/lib/data';
+import { track } from './posthog-provider';
+
+const heroCalHref = conversion.calLink
+  ? `https://cal.com/${conversion.calLink}`
+  : `mailto:${contact.email}?subject=${encodeURIComponent('Architecture call request')}`;
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -122,10 +128,14 @@ export function Hero() {
         >
           <Magnetic>
             <a
-              href="#contact"
+              href={heroCalHref}
+              target={heroCalHref.startsWith('http') ? '_blank' : undefined}
+              rel="noopener noreferrer"
+              onClick={() => track('hero_cta_book_call_click')}
               className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background shadow-[0_10px_40px_-10px_rgba(255,255,255,0.4)] transition hover:shadow-[0_14px_50px_-10px_rgba(139,92,246,0.6)]"
             >
               <span className="absolute inset-0 -z-10 translate-x-[-110%] bg-gradient-to-r from-accent-cyan via-accent-violet to-accent-fuchsia transition-transform duration-700 group-hover:translate-x-0" />
+              <CalendarCheck className="relative h-4 w-4" />
               <span className="relative transition-colors duration-500 group-hover:text-white">
                 {t('ctaPrimary')}
               </span>
@@ -134,7 +144,18 @@ export function Hero() {
           </Magnetic>
           <Magnetic>
             <a
+              href="#contact"
+              onClick={() => track('hero_cta_investor_click')}
+              className="inline-flex items-center gap-2 rounded-full border border-accent-fuchsia/30 bg-accent-fuchsia/[0.06] px-6 py-3 text-sm font-medium text-foreground backdrop-blur transition hover:border-accent-fuchsia/60 hover:bg-accent-fuchsia/[0.12]"
+            >
+              {t('ctaInvestor')}
+              <ArrowUpRight className="h-4 w-4" />
+            </a>
+          </Magnetic>
+          <Magnetic>
+            <a
               href="#products"
+              onClick={() => track('hero_cta_products_click')}
               className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-medium text-foreground backdrop-blur transition hover:border-white/25 hover:bg-white/10"
             >
               {t('ctaSecondary')}
