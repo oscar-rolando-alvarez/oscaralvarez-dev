@@ -317,7 +317,7 @@ export const contact = {
   phone: '+57 310 321 1787',
   location: 'Bogotá, Colombia',
   github: 'https://github.com/oscar-rolando-alvarez',
-  linkedin: 'https://www.linkedin.com/in/oscar-rolando-alvarez',
+  linkedin: 'https://www.linkedin.com/in/oscar-rolando-alvarez-cardenas/',
   arkis: 'https://arkisgroup.co',
 };
 

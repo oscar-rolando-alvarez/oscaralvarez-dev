@@ -26,7 +26,7 @@ const channels = [
   { icon: Phone, labelKey: 'phone', value: contact.phone, href: `tel:${contact.phone.replace(/\s+/g, '')}` },
   { icon: MapPin, labelKey: 'location', value: contact.location, href: undefined },
   { icon: Github, labelKey: 'github', value: 'oscar-rolando-alvarez', href: contact.github },
-  { icon: Linkedin, labelKey: 'linkedin', value: 'oscar-rolando-alvarez', href: contact.linkedin },
+  { icon: Linkedin, labelKey: 'linkedin', value: 'oscar-rolando-alvarez-cardenas', href: contact.linkedin },
   { icon: Globe, labelKey: 'arkis', value: 'arkisgroup.co', href: contact.arkis },
 ];
 
